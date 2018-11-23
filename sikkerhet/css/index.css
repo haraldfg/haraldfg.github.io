@@ -1,0 +1,23 @@
+article span {
+    color:red;
+}
+
+#thief { 
+position: absolute;
+background-image: url("../bilder/tyv.png");
+height: 150px;
+width: 90px;
+left: -150px;
+top: 20px;
+background-position-x: 8px;
+animation: sneak 4s infinite linear,
+        run 0.5s infinite steps(6);
+}
+
+@keyframes sneak {
+    100% {left: 110%; }
+}
+
+@keyframes run {
+    100% {background-position-x: calc( 8px + 98px * 6);}
+}
