@@ -1,3 +1,12 @@
 article > p > span {
     color: red;
 }
+
+#htmllogo {
+    background-image: url("../bilder/htmllogo.png");
+    left: 10px;
+    top: 300px;
+    width: 378px;
+    height: 338px;
+    background-size: 338px;
+}
