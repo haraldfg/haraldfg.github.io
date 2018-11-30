@@ -1,0 +1,14 @@
+.luke {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    border: solid grey 2px;
+}
+
+#background {
+    background-image: url("../bilder/jukekal.png");
+    background-position: center; 
+    background-size: contain;
+    width: 500px;
+    height: 700px;
+    
+}
